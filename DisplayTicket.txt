@@ -1,0 +1,5 @@
+ public string Display()
+    {
+      return $"ID: {TicketID}\nTitle: {Ticket}\nName: {string.Join(", ", ID)}\n";
+    }
+

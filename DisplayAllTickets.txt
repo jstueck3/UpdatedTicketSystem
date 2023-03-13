@@ -1,0 +1,12 @@
+  if (choice == "1")
+  {
+    // Add ticket
+  } else if (choice == "2")
+  {
+    object ticketFile = null;
+    // Display All Movies
+    foreach (Ticket m in ticketFile.Ticket)
+    {
+      Console.WriteLine(m.Display());
+    }
+  }
